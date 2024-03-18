@@ -17,11 +17,10 @@ function hitung() {
         case "bagi":
             hasil = angka1 / angka2;
             break;
-        // case "modulus":
-        //     hasil = angka1 % angka2;
-        //     break;
-        // default:
-        //     hasil = "Operasi tidak valid";
+        case "modulus":
+            hasil = angka1 % angka2;
+            break;
+        
     }
 
     document.getElementById("hasil").innerText = "Hasil: " + hasil;
