@@ -11,17 +11,17 @@ function hitung() {
         // case "kurang":
         //     hasil = angka1 - angka2;
         //     break;
-        // case "kali":
-        //     hasil = angka1 * angka2;
-        //     break;
-        // case "bagi":
-        //     hasil = angka1 / angka2;
-        //     break;
-        // case "modulus":
-        //     hasil = angka1 % angka2;
-        //     break;
-        // default:
-        //     hasil = "Operasi tidak valid";
+        case "kali":
+            hasil = angka1 * angka2;
+            break;
+        case "bagi":
+            hasil = angka1 / angka2;
+            break;
+        case "modulus":
+            hasil = angka1 % angka2;
+            break;
+        default:
+            hasil = "Operasi tidak valid";
     }
 
     document.getElementById("hasil").innerText = "Hasil: " + hasil;
