@@ -8,20 +8,20 @@ function hitung() {
         case "tambah":
             hasil = angka1 + angka2;
             break;
-        // case "kurang":
-        //     hasil = angka1 - angka2;
+        case "kurang":
+            hasil = angka1 - angka2;
+            break;
+        // case "kali":
+        //     hasil = angka1 * angka2;
         //     break;
-        case "kali":
-            hasil = angka1 * angka2;
-            break;
-        case "bagi":
-            hasil = angka1 / angka2;
-            break;
-        case "modulus":
-            hasil = angka1 % angka2;
-            break;
-        default:
-            hasil = "Operasi tidak valid";
+        // case "bagi":
+        //     hasil = angka1 / angka2;
+        //     break;
+        // case "modulus":
+        //     hasil = angka1 % angka2;
+        //     break;
+        // default:
+        //     hasil = "Operasi tidak valid";
     }
 
     document.getElementById("hasil").innerText = "Hasil: " + hasil;
